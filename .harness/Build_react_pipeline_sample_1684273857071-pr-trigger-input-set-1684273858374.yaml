@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_react_pipeline_sample_1684273857071-pr-trigger-input-set
+  identifier: Build_react_pipeline_sample_1684273857071prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: react_pipeline
+  pipeline:
+    identifier: Build_react_pipeline_sample_1684273857071
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
